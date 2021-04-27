@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package ashwin.stocks.spec;
+
+message Config {
+    // How much you want to put in this time
+    int32 amount_to_dca = 1;
+
+    // All the stocks in your portfolio
+    repeated StockInfo stock_info = 2;
+}
+
+message StockInfo {
+    // Name of the stock ticker in Yahoo Finance
+    string name = 1;
+
+    // Desired weight, total weight should be 100.
+    float desired_weight = 2;
+
+    // Number of stocks
+    int32 count = 3;
+}

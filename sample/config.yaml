@@ -1,0 +1,11 @@
+amount_to_dca: 1000
+stock_info:
+- name: VOO
+  desired_weight: 35
+  count: 59
+- name: IWV
+  desired_weight: 35
+  count: 89
+- name: A35.SI
+  desired_weight: 30
+  count: 21600
