@@ -6,7 +6,7 @@ Helps to balance your stock with the ratios you provided.
 ## Getting Started
 Setting up environment.
 ```bash
-python3 venv env
+python3 -m venv env
 make setup
 source env/bin/activate
 ```
